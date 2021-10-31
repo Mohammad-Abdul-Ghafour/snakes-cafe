@@ -29,7 +29,7 @@ def welcome_msg(menu):
     """)
     quitFlag = ""
     while quitFlag != "quit" :
-        order = input("    >" )
+        order = input("    > " )
         if order == "quit":
             quitFlag = "quit"
             break
